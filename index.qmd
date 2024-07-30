@@ -1,0 +1,33 @@
+---
+title: "Data Storytelling with Spotify Data"
+---
+
+# Digital Storytelling
+
+By using data, you can paint a clearer picture of what's happening and help others understand the story behind the numbers. It's like being a detective, piecing together clues (or data points) to reveal the bigger picture. So, data storytelling is all about taking raw data and turning it into a story that anyone can understand, helping to convey messages and insights in a compelling and easy-to-follow way.
+
+![](c1.jpeg)
+
+# Data Science Question: Can you tell a story about Taylor Swift and Beyonce?
+
+Today you will be looking at Data Visualizations derived from Spotify data and create a story comparing Taylor Swift and Beyonce's music.
+
+First of all let's watch a video where they sing in a Live concert! Listen closely and remember the characteristics of their music and use that information when you create the story.
+
+## Taylor Swift
+
+Taylor Alison Swift is an American singer-songwriter who was born on December 13, 1989. She is known for her narrative songs about her personal life and has sold more than 50 million albums. ([Reference](https://simple.wikipedia.org/wiki/Taylor_Swift#:~:text=Taylor%20Alison%20Swift%20(born%20December,37%20million%20in%20the%20US.)))
+
+Swift has released nine studio albums, including Lover (2019), reputation (2017), Midnights (2022), and folklore (2020). She has won 11 Grammys and broken 58 Guinness World Records. In 2023, Bloomberg estimated Swift's net worth at \$1.1 billion, making her one of the world's richest self-made women.([Reference1](https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02), [Reference2](https://www.funkidslive.com/learn/top-10-facts/top-10-facts-about-taylor-swift/))
+
+{{< video https://youtu.be/bqOfdv9i4sE?si=g5_lKMncrc_ILY4W >}}
+
+## Beyoncé
+
+Beyoncé Giselle Knowles-Carter (41 years old) is an American singer, songwriter, actress, and businesswoman. She was born in Houston, Texas on September 4, 1981. Beyoncé is known as "Queen Bey" and is considered a cultural figure of the 21st century. She first became famous in the late 1990s as the lead singer of the R&B group Destiny's Child. She has since launched a successful solo career and has won 32 Grammy Awards. ([Reference1](https://www.britannica.com/biography/Beyonce), [Reference2](https://en.wikipedia.org/wiki/Beyonc%C3%A9))
+
+Beyoncé is known for inventing the staccato rap-singing style, which is now popular in pop, R&B, and rap music. She has released 44 albums, including Beyoncé, Renaissance, and Dangerously in Love. Some of her songs include "Halo", "Crazy in Love", and "Single Ladies (Put a Ring on It)". ([Reference](https://en.wikipedia.org/wiki/Cultural_impact_of_Beyonc%C3%A9#:~:text=She%20is%20largely%20credited%20by,on%20the%20Wall%20(1999)))
+
+{{< video https://youtu.be/wTCtjjXW26I?si=xLGsctA8kh-QHkia >}}
+
+

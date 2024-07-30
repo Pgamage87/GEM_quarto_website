@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "GEM (Girls Empowered by Math) Author: Dr. Purna Gamage"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - dv.qmd
+      
+
+
+format:
+  html:
+    theme: sketchy
+    css: styles.css
+    toc: true
+
+editor: visual
+
