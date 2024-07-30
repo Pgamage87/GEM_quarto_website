@@ -35,8 +35,7 @@ knitr::knit_engines$set(python = reticulate::eng_python)
 
 This data is downloaded using Spotify API.
 
-![](s1.png) ![](b1.png) \
-
+![](s1.png) ![](b1.png)\
 
 ## Spotify Audio Features
 
@@ -70,7 +69,6 @@ For every track on their platform, Spotify provides data for thirteen Audio Feat
 
 ## Data Visualizations
 
-
 ```{r}
 #| warning: false
 #| code-fold: true
@@ -86,8 +84,6 @@ df<-df5
 
 #ggplotly(p)
 ```
-
-
 
 ## Music properties of Beyoncé and Taylor Swift's songs
 
@@ -221,32 +217,13 @@ fig
 
 ```
 
-
 ## This is a bar grapgh for Comparison
 
-<div class='tableauPlaceholder' id='viz1708910755108' style='position: relative'>
-  <noscript>
-    <a href='#'>
-      <img alt='Dashboard 1' src='https://public.tableau.com/static/images/TS/TS_B2/Dashboard1/1_rss.png' style='border: none;' />
-    </a>
-  </noscript>
-  <object class='tableauViz' style='display:none;'>
-    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-    <param name='embed_code_version' value='3' />
-    <param name='site_root' value='' />
-    <param name='name' value='TS_B2/Dashboard1' />
-    <param name='tabs' value='no' />
-    <param name='toolbar' value='yes' />
-    <param name='static_image' value='https://public.tableau.com/static/images/TS/TS_B2/Dashboard1/1.png' />
-    <param name='animate_transition' value='yes' />
-    <param name='display_static_image' value='yes' />
-    <param name='display_spinner' value='yes' />
-    <param name='display_overlay' value='yes' />
-    <param name='display_count' value='yes' />
-    <param name='language' value='en-US' />
-    <param name='filter' value='publish=yes' />
-  </object>
-</div>
+::: {#viz1708910755108 .tableauPlaceholder style="position: relative"}
+<noscript> <a href='#'> <img src="https://public.tableau.com/static/images/TS/TS_B2/Dashboard1/1_rss.png" alt="Dashboard 1" style="border: none;"/> </a> </noscript> <object class='tableauViz' style='display:none;'> <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /> <param name='name' value='TS_B2/Dashboard1' /> <param name='tabs' value='no' /> <param name='toolbar' value='yes' /> <param name='static_image' value='https://public.tableau.com/static/images/TS/TS_B2/Dashboard1/1.png' /> <param name='animate_transition' value='yes' /> <param name='display_static_image' value='yes' /> <param name='display_spinner' value='yes' /> <param name='display_overlay' value='yes' /> <param name='display_count' value='yes' /> <param name='language' value='en-US' /> <param name='filter' value='publish=yes' /> </object>
+:::
+
+```{=html}
 <script type='text/javascript'>
   var divElement = document.getElementById('viz1708910755108');
   var vizElement = divElement.getElementsByTagName('object')[0];
@@ -264,9 +241,7 @@ fig
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
-
-
-
+```
 ## Tempo of Beyoncé and Taylor Swift's songs over the Years
 
 ```{r}
@@ -309,28 +284,13 @@ fig <- fig %>% layout(
   
 ```
 
-## Number of Albums released eached Year by each  Artist
+## Number of Albums released eached Year by each Artist
 
+::: {#viz1708909591694 .tableauPlaceholder style="position: relative;"}
+<noscript><a href="#"><img src="https://public.tableau.com/static/images/TS/TS_B2/Dashboard2/1_rss.png" alt="Dashboard 2" style="border: none;"/></a></noscript> <object class="tableauViz" style="display:none;"> <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" /> <param name="embed_code_version" value="3" /> <param name="site_root" value="" /> <param name="name" value="TS_B2/Dashboard2" /> <param name="tabs" value="no" /> <param name="toolbar" value="yes" /> <param name="static_image" value="https://public.tableau.com/static/images/TS/TS_B2/Dashboard2/1.png" /> <param name="animate_transition" value="yes" /> <param name="display_static_image" value="yes" /> <param name="display_spinner" value="yes" /> <param name="display_overlay" value="yes" /> <param name="display_count" value="yes" /> <param name="language" value="en-US" /> <param name="filter" value="publish=yes" /> </object>
+:::
 
-<div class="tableauPlaceholder" id="viz1708909591694" style="position: relative;">
-  <noscript><a href="#"><img alt="Dashboard 2" src="https://public.tableau.com/static/images/TS/TS_B2/Dashboard2/1_rss.png" style="border: none;" /></a></noscript>
-  <object class="tableauViz" style="display:none;">
-    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
-    <param name="embed_code_version" value="3" />
-    <param name="site_root" value="" />
-    <param name="name" value="TS_B2/Dashboard2" />
-    <param name="tabs" value="no" />
-    <param name="toolbar" value="yes" />
-    <param name="static_image" value="https://public.tableau.com/static/images/TS/TS_B2/Dashboard2/1.png" />
-    <param name="animate_transition" value="yes" />
-    <param name="display_static_image" value="yes" />
-    <param name="display_spinner" value="yes" />
-    <param name="display_overlay" value="yes" />
-    <param name="display_count" value="yes" />
-    <param name="language" value="en-US" />
-    <param name="filter" value="publish=yes" />
-  </object>
-</div>
+```{=html}
 <script>
   var divElement = document.getElementById('viz1708909591694');
   var vizElement = divElement.getElementsByTagName('object')[0];
@@ -348,9 +308,7 @@ fig <- fig %>% layout(
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
-
-
-
+```
 ## Most frequently used words in track names
 
 ```{r}
@@ -393,9 +351,6 @@ beyonce_word_freq <- beyonce_data %>%
   arrange(desc(n))
 
 ```
-
-
-
 
 ## Word cloud Taylor Swift
 
@@ -462,7 +417,6 @@ htmlwidgets::createWidget("wordcloud2", ts_settings,
 
 ## Word cloud Beyonce
 
-
 ```{r}
 #| label: wc2
 #| warning: false
@@ -527,11 +481,6 @@ htmlwidgets::createWidget("wordcloud2", b_settings,
 
 ```
 
-
-
-
-
-
 ```{r, eval=FALSE}
 #| warning: false
 #| code-fold: true
@@ -556,8 +505,3 @@ wordcloud(words = beyonce_word_freq$word,
           colors = pal)
 
 ```
-
-
-
-
-
